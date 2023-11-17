@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
     # spec.platform     = :ios, "5.0"
   
     #  When using multiple platforms
-    # spec.ios.deployment_target = "14.0"
+    spec.ios.deployment_target = "13.0"
     # spec.osx.deployment_target = "10.7"
     # spec.watchos.deployment_target = "2.0"
     # spec.tvos.deployment_target = "9.0"
@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
     # spec.source_files = 'View/*.swift'
     spec.source_files = [
       "RCHousing/**/*.{h,m}",
-      "RemoteConfig/*.swift"
+      "Networking/*.swift"
     ]
   
     spec.preserve_paths = 'RCHousing.xcodeproj/*'
