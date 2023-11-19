@@ -96,8 +96,8 @@ Pod::Spec.new do |spec|
     # spec.source_files  = "Edge/Classes/**/*"
     # spec.source_files = 'View/*.swift'
     spec.source_files = [
-      "RCHousing/**/*.{h,m}",
-      "Networking/*.swift"
+      "RCHousing/**/*.{h,m}"
+      # "RemoteConfig/*.swift"
     ]
   
     spec.preserve_paths = 'RCHousing.xcodeproj/*'
@@ -143,6 +143,7 @@ Pod::Spec.new do |spec|
     # spec.requires_arc = true
   
     # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-    # spec.dependency "JSONKit", "~> 1.4"
+    spec.dependency "Firebase", "~> 10.12.0"
+    # 'Firebase', '~> 10.12.0'
   
   end
