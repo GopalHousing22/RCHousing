@@ -143,7 +143,7 @@ Pod::Spec.new do |spec|
     # spec.requires_arc = true
   
     # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-    spec.dependency "Firebase", "~> 10.12.0"
+    # spec.dependency "Firebase", "~> 10.12.0"
     # 'Firebase', '~> 10.12.0'
   
   end
