@@ -40,9 +40,9 @@ var globalHeaders : [String:String] {
         
         
         
-        if let authToken = AppStorage.authToken {
-            header["Authorization"] = authToken
-        }
+        // if let authToken = AppStorage.authToken {
+        //     header["Authorization"] = authToken
+        // }
         
         return header
     }

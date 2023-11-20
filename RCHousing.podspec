@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
     # spec.source_files = 'View/*.swift'
     spec.source_files = [
       "RCHousing/**/*.{h,m}",
-      "RemoteConfig/*.swift"
+      "Networking/*.swift"
     ]
   
     spec.preserve_paths = 'RCHousing.xcodeproj/*'
